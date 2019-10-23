@@ -2,21 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./styles.css">
         <title>SoundClout</title>
+        <!-- <link rel="stylesheet" href="./styles.css"> -->
+        <link rel="icon" href="data:;base64,=">
     </head>
     <body>
         <div id="Display">This will render the display</div>
-        <div id="Comments">This will render the comments</div>
+        <div id="comments">This will render the comments</div>
         <div id="Sidebar">This will render the sidebar</div>
-        <div id="App">This will render the player</div>
+        <div id="player">This will render the player</div>
         <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-        <script src="http://localhost:3020/app.js"></script>
-        <script>
-            ReactDOM.render(
-                React.createElement(App, null), document.getElementById('app')
-            );
-        </script>
+        <script src="http://localhost:3020/bundle.js"></script>
     </body>
 </html>
+
+        
