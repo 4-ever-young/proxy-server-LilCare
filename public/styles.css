@@ -11,22 +11,23 @@ body {
 }
 
 #contentProxy {
-    width: 1060px;
+    width: 1180px;
     height: 600px;
     margin: auto;
     background: white;
-    padding: 30px 90px;
+    padding: 20px 30px;
 }
 
 #comments {
     float: left;
+    margin-top: -20px;
 }
 
 #sideBarWrapper {
     position: relative;
     float: right;
     border-left: 1px solid rgb(242, 242, 242);
-    padding-left: 90px;
+    padding-left: 30px;
     height: 90%
 }
 
